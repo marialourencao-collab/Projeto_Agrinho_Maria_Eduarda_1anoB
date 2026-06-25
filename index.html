@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌎 Futuro Sustentável</h1>
+    <p>Tecnologia, inovação e sustentabilidade para as próximas gerações.</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#interacao">Interação</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que é um Futuro Sustentável?</h2>
+    <p>
+        Um futuro sustentável busca equilibrar desenvolvimento econômico,
+        preservação ambiental e qualidade de vida para todos.
+    </p>
+</section>
+
+<section id="solucoes">
+    <h2>Soluções Sustentáveis</h2>
+
+    <div class="cards">
+
+        <div class="card" onclick="mostrarInfo('agua')">
+            💧 Água Inteligente
+        </div>
+
+        <div class="card" onclick="mostrarInfo('energia')">
+            ☀ Energia Solar
+        </div>
+
+        <div class="card" onclick="mostrarInfo('reciclagem')">
+            ♻ Reciclagem
+        </div>
+
+    </div>
+
+    <div id="resultado">
+        Clique em uma solução para saber mais.
+    </div>
+
+</section>
+
+<section id="interacao">
+    <h2>Converse com o EcoBot</h2>
+
+    <div class="chat">
+
+        <div id="respostaBot">
+            Olá! Pergunte algo sobre sustentabilidade.
+        </div>
+
+        <input
+            type="text"
+            id="pergunta"
+            placeholder="Digite sua pergunta">
+
+        <button onclick="responder()">
+            Enviar
+        </button>
+
+    </div>
+</section>
+
+<footer>
+    Desenvolvido para conscientização ambiental 🌱
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

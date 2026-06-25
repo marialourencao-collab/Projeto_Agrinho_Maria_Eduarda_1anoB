@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4fdf6;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#1b5e20,#43a047);
+    color:white;
+    text-align:center;
+    padding:50px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    background:#2e7d32;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:40px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.cards{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    width:250px;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    cursor:pointer;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+#resultado{
+    margin-top:20px;
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+}
+
+.chat{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#respostaBot{
+    min-height:80px;
+    margin-bottom:15px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom:10px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    background:#43a047;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    background:#1b5e20;
+    color:white;
+    padding:20px;
+    margin-top:40px;
+}
